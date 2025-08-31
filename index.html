@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portfólio Front-End</title>
+</head>
+<body>
+            <div class="particulas"></div>
+
+
+      <nav class="navegacão">
+
+
+          <ul class="menu">
+            <li>
+                <a href="#Inicio" class="menu-link">Inicio</a>
+          <li> 
+
+            <a href="#sobre" class="menu-link">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#projetos" class="menu-link">Projetos</a>
+          </li>
+
+          <li>
+            <a href="#contato" class="menu-link">Contato</a>
+          </li>
+          </ul>
+      </nav>
+
+      <main id="Inicio" class="cabecalho">
+           
+                    <img src="./img/IMG_20250317_191756.jpg" alt="foto do unaibson" class="foto-perfil">
+                    <h1>Unaibson Sevino de Oliveira</h1>
+                    <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+           
+</main>
+
+   <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Sou Unaibson Sevino, desenvolvedor front-end em transição de carreira, apaixonado por transformar ideias em experiências digitais impactantes. Com uma base sólida em HTML, CSS, JavaScript e controle de versões com Git e GitHub, estou constantemente evoluindo através de projetos práticos e estudos contínuos.
+
+                Atualmente, aprofundo meus conhecimentos em automações com N8N, IA e buscando unir desempenho e eficiência em soluções modernas.
+
+                Minha missão é desenvolver interfaces responsivas, acessíveis e intuitivas, sempre com foco no usuário final. Tenho disciplina, proatividade e a visão de quem vem do mundo dos negócios e agora aplica essa experiência na tecnologia.
+
+                Estou em busca da minha primeira oportunidade na área de desenvolvimento, pronto para somar ao time e crescer junto. Se você busca um profissional comprometido, curioso e que aprende rápido, vamos conversar!
+            </p>
+        </div>
+</section>
+        
+ <section id="projetos" class="projetos">
+    <h2 class="projetos-titulos">Meus-Projetos</h2>
+<div class="projetos-caixa">
+
+        <div class="projeto-yotube">
+
+       
+            <img src="./img/Captura de tela 2025-06-25 213758.png" alt="Projeto 1" class="projeto-imagem">
+        
+      <div  class="caixa-textos-projetos">
+            <h3 class="info-produtos">Interfaces do yotube</h3>
+            <p class="paragrafos-projetos">Clone da interface do YouTube, desenvolvido como projeto pessoal/desafio prático. Foco em UX/UI moderna, navegação fluida e responsividade. Construído com HTML, CSS e JavaScript, simulando a experiência real de navegação e consumo de vídeos. </p>
+      </div>
+       
+          </div>
+        
+          <div class="projeto-yotube">
+            <img src="./img/Captura de tela 2025-07-30 002814.png" alt="Projeto 2" class="projeto-imagem">
+        <div  class="caixa-textos-projetos">   
+            <h3 class="info-produtos">projeto mario</h3>
+            <p class="paragrafos-projetos"> Projeto  Interface inspirada no universo do Mario Bros, com visual retrô, animações divertidas e uma pegada nostálgica que resgata a essência dos games clássicos. </p>
+
+          <button class="botao-projetos"><a href="https://unaibson-sevino-1.netlify.app/" target="_blank">Ver Projeto</a></button>
+          </div>
+       
+          </div>
+        
+          <div class="projeto-yotube">
+            <img src="./img/Captura de tela 2025-07-30 003320.png" alt="Projeto 3" class="projeto-imagem">
+       <div  class="caixa-textos-projetos">    
+            <h3 class="info-produtos">projeto Starbucks</h3>
+           
+            <p class="paragrafos-projetos"> Projeto  Interface inspirada no universo Starbucks, com visual moderno, elegante e focado na experiência do usuário. Projeto que simula a identidade da marca com estilo e sofisticação. </p>
+           
+          <button class="botao-projeto"><a href="https://unaibson-sevino.netlify.app/" target="_blank">Ver Projeto</a></button>
+
+       </div>
+      </section>
+
+      <section id="contato" class="contato">
+            <h2 class="contato-titulo">Entre em Contatos</h2>
+            <form class="formulario-contato" id="formulario" onsubmit="enviarWhatsApp(event)">
+             
+              <div class="grupo-form">
+                   <input placeholder="Nome" class="campo-form" id="nome">
+              </div>
+
+            <div class="grupo-form">
+                  <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6" id="mensagem"></textarea>
+
+            </div>
+
+            <button type="subimit" class="botao-form">Enviar whatsApp</button>
+        </form>       
+        
+</section>
+      
+
+
+     
+  </body>
+
+ <script src="./script.js" ></script>
+
+</html>
